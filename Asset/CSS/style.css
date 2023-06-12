@@ -64,7 +64,7 @@ body {
 }
 
 #backdrop {
-  background-image: url(Asset/Images/Hero-Section/Hero-svg.svg);
+  background-image: url(/Asset/Images/Hero-Section/Hero-svg.svg);
   height: 600px;
   background-size: cover;
   background-position: center;
