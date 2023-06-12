@@ -374,6 +374,39 @@ input[type="email"] {
   gap: 10px;
 }
 
+/* BLOG TAG*/
+.yml {
+  padding: 10px;
+  background-color: var(--purple);
+  width: 105px;
+  height: 39px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: var(--white);
+}
+
+.red {
+  background-color: var(--red);
+}
+
+.blue {
+  background-color: var(--purple);
+}
+
+.green {
+  background-color: var(--green);
+}
+
+
+
+
+
+
+
+
+
+
+
 /* SCROLL UP BUTTON */
 
 .scroll-to-top-button {
