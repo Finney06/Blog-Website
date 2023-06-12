@@ -166,7 +166,7 @@ body {
 
 /* HEADER SECTION  */
 #hero-section {
-    background-image: url(/Asset/Images/Read-More/Hero-Image.svg);
+    background-image: url(Asset/Images/Read-More/Hero-Image.svg);
     height: calc(100vh - 10vh);
     background-size: cover;
     background-repeat: no-repeat;
