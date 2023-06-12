@@ -64,9 +64,10 @@ body {
 }
 
 #backdrop {
-  background-image: url(Asset/Images/Hero-Section/Hero-svg.svg);
+  background-image: url(/Asset/Images/Hero-Section/Hero-svg.svg);
   height: 600px;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -138,6 +139,8 @@ body {
   padding: 10px;
   font-size: 16px;
   color: var(--black);
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif;
 }
 
 .search-button {
@@ -223,8 +226,9 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
-  background-image: url(Asset/Images/Sub-Hero/bg.svg);
+  background-image: url(/Asset/Images/Sub-Hero/bg.svg );
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   width: 375px;
   height: 250px;
@@ -347,7 +351,6 @@ body {
   grid-gap: 10px;
 }
 
-
 .mfs-container-bx {
   display: flex;
   flex-direction: column;
@@ -363,7 +366,7 @@ body {
   color: var(--black);
   font-size: 24px;
   font-weight: 600;
-  margin-bottom:5px;
+  margin-bottom: 5px;
 }
 
 .mfs-stamp span {
@@ -414,7 +417,7 @@ body {
 .recent-post h3 {
   font-size: 25px;
   margin-bottom: 10px;
-} 
+}
 
 .recent-post a {
   display: flex;
@@ -438,11 +441,11 @@ body {
 }
 
 .newsletter a {
-    padding: 15px;
-    text-align: center;
-    background: #5200FF;
-    transition: 0.3s ease;
-    font-weight: 600;
+  padding: 15px;
+  text-align: center;
+  background: #5200ff;
+  transition: 0.3s ease;
+  font-weight: 600;
 }
 
 .newsletter a:hover {
@@ -512,7 +515,7 @@ input[type="email"] {
   }
 }
 
-@media (max-width:945px) {
+@media (max-width: 945px) {
   .blog-container {
     grid-template-columns: 1fr;
   }
@@ -524,16 +527,14 @@ input[type="email"] {
   .mfs-container {
     grid-template-columns: repeat(2, 1fr);
   }
- 
-#footer {
-  padding: 80px 40px 60px;
-}
+
+  #footer {
+    padding: 80px 40px 60px;
+  }
 }
 
 @media (max-width: 850px) {
-  .section-p1 {
-    padding: 40px 40px;
-  }
+
 
   #header {
     padding: 20px 30px;
@@ -590,6 +591,8 @@ input[type="email"] {
     color: #fff;
     font-size: 24px;
   }
+
+  /* SUB HERO  */
 
   #backdrop {
     height: 100vh;
@@ -652,6 +655,8 @@ input[type="email"] {
     padding: 0px 20px 50px;
   }
 
+  /* FOOTER SECTION  */
+
   .three-div-wrapper {
     flex-wrap: wrap;
     justify-content: center;
@@ -668,12 +673,9 @@ input[type="email"] {
   .copyright a {
     font-size: 14px;
   }
- 
 
   /* MORE OF US CONT'D  */
-
 }
-
 
 @media (max-width: 480px) {
   /* .blog-container {
@@ -695,7 +697,7 @@ input[type="email"] {
   .mfs-container {
     grid-template-columns: 1fr;
   }
-  
+
   #footer {
     padding: 80px 20px 50px;
   }
