@@ -651,6 +651,14 @@ input[type="email"] {
   #hero-section {
     justify-content: center;
   }
+
+  #blog-post {
+    padding: 30px 30px;
+  }
+
+  #blog-post h2 {
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 480px) {
