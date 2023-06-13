@@ -8,6 +8,8 @@
   --green: #00b347;
   --search-bar-color: #fafafa;
   --grey: #8c8c8c;
+  --blue: #5200ff;
+
 }
 
 * {
@@ -16,11 +18,12 @@
   padding: 0;
   list-style: none;
   text-decoration: none !important;
-  color: var(--white);
+  /* color: var(--white); */
 }
 
 body {
   font-family: "Work Sans", sans-serif;
+  color: var(--black);
 }
 
 h1,
@@ -58,6 +61,10 @@ h6 {
 p {
   font-size: 16px;
   margin: 10px 0;
+}
+
+a {
+  color: var(--white);
 }
 
 body {
@@ -192,7 +199,7 @@ body {
 .dummy-time-stamp {
   display: flex;
   gap: 5px;
-  font-size: 12px;
+  font-size: 10px;
   /* letter-spacing: 2px; */
   align-items: center;
 }
@@ -208,6 +215,75 @@ body {
   margin-top: 15px;
   padding: 5px;
 }
+
+/* BLOG POST  */
+#blog-post {
+  padding: 40px 80px;
+}
+
+#blog-post p {
+  margin-bottom: 24px;
+}
+
+#blog-post h2 {
+  color: var(--blue);
+  font-size: 32px;
+}
+
+.one::before {
+  content: "1.";
+  margin-right: 15px;
+}
+
+.quote {
+  border-left: 2px solid #ff0000;
+  color: var(--purple);
+  padding-left: 15px;
+  margin-bottom: 24px;
+}
+
+.quote p {
+  margin-bottom: 10px !important;
+}
+
+.two::before {
+  content: "2.";
+  margin-right: 15px;
+}
+
+.three::before {
+  content: "3.";
+  margin-right: 15px;
+}
+
+.four::before {
+  content: "4.";
+  margin-right: 15px;
+}
+
+.five::before {
+  content: "5.";
+  margin-right: 15px;
+}
+
+.six::before {
+  content: "6.";
+  margin-right: 15px;
+}
+
+.seven::before {
+  content: "7.";
+  margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
 
 /* YOU MAY LIKE SECTION  */
 #more-of-us-section {
@@ -270,6 +346,7 @@ body {
 #footer {
   background: var(--black);
   padding: 80px 80px 20px;
+  color: var(--white);
 }
 
 .three-div-wrapper {
@@ -406,7 +483,6 @@ input[type="email"] {
 
 
 
-
 /* SCROLL UP BUTTON */
 
 .scroll-to-top-button {
@@ -485,7 +561,7 @@ input[type="email"] {
         right: -250px;
         height: 100vh;
         width: 250px;
-        background: rgba(0, 4, 33, 0.7);
+        background: hsla(232, 100%, 6%, 0.7);
         backdrop-filter: blur(4.5px);
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 80px 0 0 10px;
