@@ -288,11 +288,59 @@ body {
 .icons > a > i {
   color: black;
 }
-/* .socials-container > p {
-  margin: 0px;
-} */
+
+.socials-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icons i {
+  font-size: 20px;
+  transition: 0.3s ease;
+}
+
+.icons i:hover {
+  color: var(--blue);
+}
 
 
+/* REPLY SECTION */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(243, 243, 243, 1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.post-comment-btn {
+  background-color: rgba(124, 148, 25, 1);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
 
 
@@ -492,6 +540,44 @@ input[type="email"] {
 
 
 
+/* REPLY SECTION  */
+#reply-section {
+  padding: 40px 80px;
+}
+
+.comment-form {
+  width: 75%;
+}
+
+.grow {
+  background-color: rgba(243, 243, 243, 1);
+}
+
+.mess {
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+}
+
+.post-button {
+  padding:15px;
+  background: rgba(124, 148, 25, 1);
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.post-button:hover {
+  background: rgba(124, 148, 25, 0.8);
+}
+
+
+
+
+
 
 
 
@@ -617,7 +703,7 @@ input[type="email"] {
         font-size: 24px;
       }
 
-      .#navbar li a {
+      #navbar li a {
         color: var(--white);
       }
 }
@@ -674,6 +760,14 @@ input[type="email"] {
 
   #blog-post h2 {
     font-size: 22px;
+  }
+
+  #socials {
+    padding: 0px 30px;
+  }
+
+  #reply-section {
+    padding: 40px 30px;
   }
 }
 
