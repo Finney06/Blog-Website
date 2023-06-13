@@ -64,7 +64,7 @@ body {
 }
 
 #backdrop {
-  background-image: url(/Asset/Images/Hero-Section/Hero-svg.svg);
+  background-image: url(../Images/Hero-Section/Hero-svg.svg);
   height: 600px;
   background-size: cover;
   background-position: center;
@@ -226,7 +226,7 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
-  background-image: url(/Asset/Images/Sub-Hero/bg.svg);
+  background-image: url(../Images/Sub-Hero/bg.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
