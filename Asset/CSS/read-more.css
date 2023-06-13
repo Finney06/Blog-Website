@@ -202,6 +202,7 @@ body {
   font-size: 10px;
   /* letter-spacing: 2px; */
   align-items: center;
+  color: var(--white);
 }
 
 #hero-section h1 {
@@ -752,6 +753,7 @@ textarea {
 @media (max-width: 500px) {
   #hero-section {
     justify-content: center;
+    padding: 40px 15px 40px 20px;
   }
 
   #blog-post {
